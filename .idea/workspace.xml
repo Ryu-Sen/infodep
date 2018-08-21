@@ -12,7 +12,8 @@
     <session id="-317087802">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.32" value="2" />
           <entry key="project.open.time.40" value="1" />
@@ -21,7 +22,7 @@
           <entry key="project.open.time.51" value="1" />
           <entry key="project.open.time.52" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -61,7 +62,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/infodep/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
+            <state relative-caret-position="44">
               <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
@@ -82,8 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/infodep/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="418">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="e#0#66#0" expanded="true" />
               </folding>
@@ -112,8 +113,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/infodep/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+            <state relative-caret-position="220">
+              <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -133,7 +134,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/infodep/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
+            <state relative-caret-position="858">
               <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
             </state>
           </provider>
@@ -143,7 +144,7 @@
         <entry file="file://$PROJECT_DIR$/infodep/templates/formtest.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="352">
-              <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+              <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -173,6 +174,9 @@
       <find>\&lt;\!DOCTYPE html\&gt;\n\&lt;html lang\=\&quot;en\&quot;\&gt;\n\&lt;head\&gt;\n    \&lt;meta charset\=\&quot;UTF\-8\&quot;\&gt;\n    \&lt;title\&gt;Kitting\&lt;\/title\&gt;\n\n    \&lt;style type\=\&quot;text\/css\&quot;\&gt;\n\.tg  \{border\-collapse\:collapse\;border\-spacing\:0\;border\-color\:\#999\;\}\n\.tg td\{font\-family\:Arial\, sans\-serif\;font\-size\:14px\;padding\:10px 5px\;border\-style\:solid\;border\-width\:1px\;overflow\:hidden\;word\-break\:normal\;border\-color\:\#999\;color\:\#444\;background\-color\:\#F7FDFA\;\}\n\.tg th\{font\-family\:Arial\, sans\-serif\;font\-size\:14px\;font\-weight\:normal\;padding\:10px 5px\;border\-style\:solid\;border\-width\:1px\;overflow\:hidden\;word\-break\:normal\;border\-color\:\#999\;color\:\#fff\;background\-color\:\#26ADE4\;\}\n\.tg \.tg\-yw4l\{vertical\-align\:top\}\n\&lt;\/style\&gt;\n\&lt;\/head\&gt;\n\&lt;body\&gt;\n\n\&lt;table class\=\&quot;tg\&quot; size\=\&quot;10\&quot;\&gt;\n    \&lt;tr\&gt;\n    \&lt;th class\=\&quot;tg\-yw4l\&quot;\&gt;ID\&lt;\/th\&gt;\n    \&lt;th class\=\&quot;tg\-yw4l\&quot;\&gt;Job Type\&lt;\/th\&gt;\n    \&lt;th class\=\&quot;tg\-yw4l\&quot;\&gt;Job Date\&lt;\/th\&gt;\n    \&lt;th class\=\&quot;tg\-yw4l\&quot;\&gt;Unit Number\&lt;\/th\&gt;\n    \&lt;th class\=\&quot;tg\-yw4l\&quot;\&gt;Account Name\&lt;\/th\&gt;\n    \&lt;th class\=\&quot;tg\-yw4l\&quot;\&gt;User Name\&lt;\/th\&gt;\n    \&lt;th class\=\&quot;tg\-yw4l\&quot;\&gt;Furigana\&lt;\/th\&gt;\n    \&lt;th class\=\&quot;tg\-yw4l\&quot;\&gt;Brand Name\&lt;\/th\&gt;\n    \&lt;th class\=\&quot;tg\-yw4l\&quot;\&gt;Notes\&lt;\/th\&gt;\n    \&lt;\/tr\&gt;\n\n    \{\% for project in kitting \%\}\n    \&lt;tr\&gt;\n    \&lt;td class\=\&quot;tg\-yw4l\&quot;\&gt;\{\{ project\.id \}\}\&lt;\/td\&gt;\n    \&lt;td class\=\&quot;tg\-yw4l\&quot;\&gt;\{\{ project\.job_type \}\}\&lt;\/td\&gt;\n    \&lt;td class\=\&quot;tg\-yw4l\&quot;\&gt;\{\{ project\.job_date \}\}\&lt;\/td\&gt;\n    \&lt;td class\=\&quot;tg\-yw4l\&quot;\&gt;\{\{ project\.unit_number \}\}\&lt;\/td\&gt;\n    \&lt;td class\=\&quot;tg\-yw4l\&quot;\&gt;\{\{ project\.account_name \}\}\&lt;\/td\&gt;\n    \&lt;td class\=\&quot;tg\-yw4l\&quot;\&gt;\{\{ project\.user_name \}\}\&lt;\/td\&gt;\n    \&lt;td class\=\&quot;tg\-yw4l\&quot;\&gt;\{\{ project\.furigana \}\}\&lt;\/td\&gt;\n    \&lt;td class\=\&quot;tg\-yw4l\&quot;\&gt;\{\{ project\.brand_name \}\}\&lt;\/td\&gt;\n    \&lt;td class\=\&quot;tg\-yw4l\&quot;\&gt;\{\{ project\.note \}\}\&lt;\/td\&gt;\n    \&lt;\/tr\&gt;\n\n    \{\% endfor \%\}\n\n\&lt;\/table\&gt;\n\n\&lt;\/body\&gt;\n\&lt;\/html\&gt;</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -194,12 +198,13 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="678" />
     <option name="y" value="44" />
     <option name="width" value="960" />
     <option name="height" value="1080" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -314,7 +319,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49841774" visible="true" weight="0.08755274" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49841774" visible="true" weight="0.08755274" />
       <window_info id="Structure" order="1" sideWeight="0.50158226" side_tool="true" weight="0.18043478" />
       <window_info id="Favorites" order="2" sideWeight="0.50158226" side_tool="true" weight="0.18043478" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -324,9 +329,9 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295099" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3295099" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33054394" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.3295099" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32979852" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -417,40 +422,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/infodep/templates/returns.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infodep/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infodep/templates/kitting.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infodep/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#0#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/infodep/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
+        <state relative-caret-position="44">
           <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
@@ -465,17 +439,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/infodep/settings.py">
+    <entry file="file://$PROJECT_DIR$/infodep/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infodep/templates/formtest.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        <state relative-caret-position="418">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#66#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -486,10 +456,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/infodep/templates/returns.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infodep/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infodep/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infodep/templates/formtest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infodep/templates/kitting.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/infodep/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        <state relative-caret-position="220">
+          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
