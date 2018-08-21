@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kitting</title>
+
+    <style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#999;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#444;background-color:#F7FDFA;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#fff;background-color:#26ADE4;}
+.tg .tg-yw4l{vertical-align:top}
+
+
+    </style>
+</head>
+<body>
+
+<table
+        class="tg" size="10">
+    <tr>
+        <th class="tg-yw4l">ID</th>
+        <th class="tg-yw4l">Job Type</th>
+        <th class="tg-yw4l">Job Date</th>
+        <th class="tg-yw4l">Unit Number</th>
+        <th class="tg-yw4l">Account Name</th>
+        <th class="tg-yw4l">User Name</th>
+        <th class="tg-yw4l">Furigana</th>
+        <th class="tg-yw4l">Notes</th>
+    </tr>
+
+    {% for element in kitting %}
+    <tr>
+        <td class="tg-yw4l">{{ element.id }}</td>
+        <td class="tg-yw4l">{{ element.job_type }}</td>
+        <td class="tg-yw4l">{{ element.job_date }}</td>
+        <td class="tg-yw4l">{{ element.unit_number }}</td>
+        <td class="tg-yw4l">{{ element.account_name }}</td>
+        <td class="tg-yw4l">{{ element.user_name }}</td>
+        <td class="tg-yw4l">{{ element.furigana }}</td>
+        <td class="tg-yw4l">{{ element.note }}</td>
+    </tr>
+
+    {% endfor %}
+
+</table>
+
+<br>
+<a href="../">Home</a>
+
+</body>
+</html>
