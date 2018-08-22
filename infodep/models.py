@@ -3,6 +3,7 @@ from django.db import models
 
 class Kitting(models.Model):
     job_type = models.CharField(max_length=50, null=True)
+    job_date = models.CharField(max_length=50, null=True)
     unit_number = models.CharField(max_length=50, null=True)
     account_name = models.CharField(max_length=30, null=True)
     user_name = models.CharField(max_length=50, null=True)
