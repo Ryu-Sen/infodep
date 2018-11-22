@@ -27,4 +27,5 @@ urlpatterns = [
     path('kitting/', views.kitting, name='kitting'),
     path('returns/', views.returns, name='returns'),
     path('admin/', admin.site.urls),
+path('cellphones/', views.cellphones, name='cellphones'),
 ]

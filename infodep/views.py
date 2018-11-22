@@ -1,9 +1,9 @@
 from django.shortcuts import render_to_response, get_object_or_404
 from django.http import HttpResponseRedirect
 from .models import Kitting
+from .cellmodel import Cellphone
 import datetime
 
-from .forms import RenewBookForm
 
 
 def kitting(request):
@@ -34,3 +34,15 @@ def returns(request):
         'returns.html',
         extra_context
     )
+
+def cellphones(request):
+    extra_context = {}
+
+    cellphones = Cellphone.objects.all()
+    extra_context['cellphones'] = cellphones
+
+    return render_to_response(
+        'cellphones.html',
+        extra_context
+    )
+
